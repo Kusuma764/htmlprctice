@@ -1,0 +1,128 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+.navbar { 
+    margin: 0;
+    padding: 1px 0;
+} 
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-first{
+    background-color: rgba(2, 20, 49, 1);
+}
+.nav-first ul{
+     list-style-type: none;
+     display:flex;
+     justify-content: flex-end;
+     
+}
+.nav-first ul li{
+    margin: 0 5px;
+}
+.nav-first ul li a{
+    display:block;
+    color:#f0f6ff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.nav-first ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-second{
+    background-color: #f0f6ff;
+    display:flex;
+    width:100%;
+    height: 60px;
+    justify-content: space-around;
+   
+    
+}
+.logo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.logo p{
+     background-color:#057aff;  
+     color: #dbe1ff; 
+     padding: 15px 15px; 
+     border-radius: 5px; 
+     font-size: 20px; 
+     font-weight: 600;
+}
+.menu ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 14px;
+    
+}
+.menu ul li{
+    margin: 0 5px;
+}
+.menu ul li a{
+    display:block;
+    color:#394e6a;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+.menu ul li a:hover { 
+    background-color: #e5e7eb;
+    border-radius: 8px; 
+}    
+.icon ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+.icon ul li{
+    margin: 0 8px;
+    font-size:larger;
+}
+.icon ul li a{
+    display:block;
+    padding: 5px 15px;
+    font-weight: bold;
+    
+}
+.icon ul li a:hover{
+    background-color: #e5e7eb; /* Darker background on hover */
+    border-radius: 50%;
+    
+}
+i{
+    color: rgba(2, 20, 49, 1);
+}
+
+.message{
+    color: #394e6a;
+    white-space: pre-wrap;
+    text-indent: 80px;
+    padding: 1px 0;
+    font-size: 30px;
+    padding: 5px 0 10px 0;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 1;
+    margin-top: -6px;
+}
+
+.styled-hr { 
+    border: none; /* Remove default border */ 
+    height: 1px; /* Set height */ 
+    background-color: #e2e8f4; /* Light gray color */ 
+    width: 90%; /* Set width to 80% of container */ 
+    margin: -45px 45px; /* Spacing above and below the line */ 
+}

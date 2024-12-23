@@ -1,0 +1,190 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy Store</title>
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar nav-first">
+        <ul>
+            <li><a href="login.html">Sign in/Guest</a></li>
+            <li><a href="register.html" style="padding-right: 80px;">Create Account</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar nav-second">
+        <div class="logo"><p>C</p></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html"  style="background-color: rgba(2, 20, 49, 1); color:#f0f6ff;padding: 8px 15px; border-radius: 8px; display: block; text-decoration: none;">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </nav><br><br><br>
+
+    
+    
+    <form class="form-container">
+        <div class="first-row">
+            <div class="search">
+                <label for="search">Search Product</label>
+                <br>
+                <input id="search" type="text" placeholder="Search">
+            </div>
+
+            <div class="search">
+                 <label for="category">Select Category</label>
+                 <br>
+                <select id="category">
+                <option value="all">all</option>
+                <option value="Tables">Tables</option>
+                <option value="Chairs">Chairs</option>
+                <option value="Kids">Kids</option>
+                <option value="Sofas">Sofas</option>
+                <option value="Beds">Beds</option>
+                </select>
+           </div>
+
+           <div class="search">
+            <label for="company">Select Company</label>
+            <br>
+            <select id="company">
+                <option value="all">all</option>
+                <option value="Modenza">Modenza</option>
+                <option value="Luxora">Luxora</option>
+                <option value="Artifex">Artifex</option>
+                <option value="Comfora">Comfora</option>
+                <option value="Homestead">Homestead</option>
+            </select>
+        </div>
+
+        <div class="search">
+            <label for="sort">Sort By</label>
+            <br>
+            <select id="sort">
+                <option value="a-z">a-z</option>
+                <option value="z-a">z-a</option>
+                <option value="High">High</option>
+                <option value="Low">Low</option>
+            </select>
+        </div>
+    </div>
+
+
+        <div class="second-row">
+            
+            <div class="row price">
+                <label for="price">Select Price</label>
+                <span>$1,000.00</span>
+                <br>
+                <input type="range" id="price" name="price" min="0" max="1000" value="800">
+                <br>
+                <label>0</label>
+                <span class="span-2">Max: $1,000.00</span>
+            </div>
+
+            <div class="row free-shipping">
+                <label for="free-shipping">Free Shipping</label> 
+                <br>
+                <input type="checkbox" id="free-shipping" class="free">
+            </div>
+            
+            <div class="row button-1">
+                <button><a href="#">SEARCH</a></button>
+            </div>
+
+            <div class="row button-2">
+                <button><a href="#">RESET</a></button>
+                
+            </div>
+            
+      </div>
+    </form>
+<br><br><br>
+
+
+    <div class="product">
+    <div class="product pro">22 products</div>
+        <div class="product icon1">
+            <i class="fa-solid fa-border-all"></i>
+            <i class="fa-solid fa-bars"></i>
+         </div>
+    </div><br><br>
+        <hr class="styled-hr">
+        <br>
+        <div class="product-container">
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/943150/pexels-photo-943150.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 1" class="product-image"></a>
+                <h2 class="product-title">Avant-Garde Lamp</h2>
+                <p class="product-price">$179.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/5705090/pexels-photo-5705090.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 2" class="product-image"></a>
+                <h2 class="product-title">Chic Chair</h2>
+                <p class="product-price">$339.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/3679601/pexels-photo-3679601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Product Image 3" class="product-image"></a>
+                <h2 class="product-title">Coffee Table</h2>
+                <p class="product-price">$179.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 4" class="product-image"></a>
+                <h2 class="product-title">Comfy Bed</h2>
+                <p class="product-price">$129.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 5" class="product-image"></a>
+                <h2 class="product-title">Contemporary Sofa</h2>
+                <p class="product-price">$159.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/2029694/pexels-photo-2029694.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 6" class="product-image"></a>
+                <h2 class="product-title">Cutting-Edge Bed</h2>
+                <p class="product-price">$84.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/2177482/pexels-photo-2177482.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 7" class="product-image"></a>
+                <h2 class="product-title">Futuristic Shelves</h2>
+                <p class="product-price">$94.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/1571452/pexels-photo-1571452.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 8" class="product-image"></a>
+                <h2 class="product-title">Glass Table</h2>
+                <p class="product-price">$159.99</p>
+            </div>
+            <div class="product-box">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/6489083/pexels-photo-6489083.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 9" class="product-image"></a>
+                <h2 class="product-title">King bed</h2>
+                <p class="product-price">$189.99</p>
+            </div>
+            <div class="product-box last-product">
+                <a href="product1.html"><img src="https://images.pexels.com/photos/2082090/pexels-photo-2082090.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image 10" class="product-image"></a>
+                <h2 class="product-title">Lounge Chair</h2>
+                <p class="product-price">$259.99</p>
+            </div>
+        </div><br><br>
+        <div class="pagination"> 
+            <a href="#" class="prev">Prev</a> 
+            <a href="#" class="page-number">1</a> 
+            <a href="#" class="page-number">2</a> 
+            <a href="#" class="page-number">3</a> 
+            <a href="#" class="next">Next</a> 
+        </div>
+        <br>
+        <br>
+    
+      
+
+    
+</body>
+</html>

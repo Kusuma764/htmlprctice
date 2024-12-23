@@ -1,0 +1,244 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+.navbar { 
+    margin: 0;
+    padding: 1px 0;
+} 
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-first{
+    background-color: rgba(2, 20, 49, 1);
+}
+.nav-first ul{
+     list-style-type: none;
+     display:flex;
+     justify-content: flex-end;
+     
+}
+.nav-first ul li{
+    margin: 0 5px;
+}
+.nav-first ul li a{
+    display:block;
+    color:#f0f6ff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}    
+.nav-first ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-second{
+    background-color: #f0f6ff;
+    display:flex;
+    width:100%;
+    height: 60px;
+    justify-content: space-around;
+   
+    
+}
+.logo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.logo p{
+     background-color:#057aff;  
+     color: #dbe1ff; 
+     padding: 15px 15px; 
+     border-radius: 5px; 
+     font-size: 20px; 
+     font-weight: 600;
+}
+.menu ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 14px;
+    
+}
+.menu ul li{
+    margin: 0 5px;
+}
+.menu ul li a {
+    display:block;
+    color:#394e6a;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+.menu ul li a:hover { 
+    background-color: #e5e7eb;
+    border-radius: 8px; 
+}    
+.icon ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+.icon ul li{
+    margin: 0 8px;
+    font-size:larger;
+}
+.icon ul li a{
+    display:block;
+    padding: 5px 15px;
+    font-weight: bold;
+    
+}
+.icon ul li a:hover{
+    background-color: #e5e7eb; /* Darker background on hover */
+    border-radius: 50%;
+    
+}
+i{
+    color: rgba(2, 20, 49, 1);
+}
+.main{
+    color: #394e6a;
+    white-space: pre-wrap;
+    text-indent: 80px;
+    margin: 0;
+    padding: 1px 0;
+    
+    
+}    
+.main h1,p {
+        margin: 0;
+        padding: 0;
+    }
+
+.main h1{
+    font-size: 58px;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 50px;
+   
+
+}
+.main p{
+    font-size: 18px;
+    line-height: 1.8;
+    
+}
+.main a{
+    padding: 16px;
+    border: 1px solid #057aff;
+    background-color: #057aff;
+    color: #dbe1ff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 75px;
+    
+}
+
+/* Styling for the image container */
+.image-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    margin-right: 100px;
+    position: absolute;
+    right: 0;
+    top: 180px;
+    border: 2px solid rgba(2, 20, 49, 1);
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgba(2, 20, 49, 1); /* Optional: Background color */
+}
+
+/* Styling for the full image */
+.full-image {
+    width: 280px; /* Set the width of the full image */
+    height: 400px; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between images */
+    border-radius: 8px;
+}
+
+/* Wrapper for the half image */
+.half-image-wrapper {
+    width: 75px; /* Set the width to half of the image's width */
+    overflow: hidden; /* Hide the overflow part of the image */
+    border-radius: 8px;
+    
+}
+
+/* Styling for the half image */
+.half-image {
+    width: 280px; /* Full width of the image */
+    height: 400px; /* Maintain aspect ratio */
+    transform: translateX(-75px); /* Shift the image to show only the right half */
+    
+}
+.container{
+    display: flex;
+}
+.styled-hr { 
+    border: none; /* Remove default border */ 
+    height: 1px; /* Set height */ 
+    background-color: #e2e8f4; /* Light gray color */ 
+    width: 90%; /* Set width to 80% of container */ 
+    margin: 10px 45px; /* Spacing above and below the line */ 
+}
+.container1{
+    color: #394e6a;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    margin-left: 70px;
+    letter-spacing: 0.9;
+    line-height: 1;
+}
+
+/* Styling for the product container */
+.product-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-around; /* Distribute space around the items */
+    flex-wrap: wrap; /* Wrap items if necessary */
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Optional: Set a max width */
+}
+
+/* Styling for the product box */
+.product-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 30%; /* Adjust width to fit within the container */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    text-align: center;
+    margin: 10px 0; /* Margin for spacing between boxes */
+}
+
+/* Styling for the product image */
+.product-image {
+    width: 85%;
+    height: 190px;
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Styling for the product title */
+.product-title {
+    font-size: 18px;
+    margin: 15px 0 10px 0; /* Space around the title */
+    color: #394e6a;
+}
+
+/* Styling for the product price */
+.product-price {
+    font-size: 16px;
+    color: #463aa1; /* A nice orange color */
+}

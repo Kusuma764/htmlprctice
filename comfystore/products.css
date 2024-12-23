@@ -1,0 +1,313 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+}
+.navbar { 
+    margin: 0;
+    padding: 1px 0;
+} 
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-first{
+    background-color: rgba(2, 20, 49, 1);
+}
+.nav-first ul{
+     list-style-type: none;
+     display:flex;
+     justify-content: flex-end;
+     
+}
+.nav-first ul li{
+    margin: 0 5px;
+}
+.nav-first ul li a{
+    display:block;
+    color:#f0f6ff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.nav-first ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-second{
+    background-color: #f0f6ff;
+    display:flex;
+    width:100%;
+    height: 60px;
+    justify-content: space-around;
+   
+    
+}
+.logo {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.logo p{
+     background-color:#057aff;  
+     color: #dbe1ff; 
+     padding: 15px 15px; 
+     border-radius: 5px; 
+     font-size: 20px; 
+     font-weight: 600;
+}
+.menu ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    margin-top: 14px;
+    
+}
+.menu ul li{
+    margin: 0 5px;
+}
+.menu ul li a{
+    display:block;
+    color:#394e6a;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 16px;
+}
+.menu ul li a:hover { 
+    background-color: #e5e7eb;
+    border-radius: 8px; 
+}    
+.icon ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+.icon ul li{
+    margin: 0 8px;
+    font-size:larger;
+}
+.icon ul li a{
+    display:block;
+    padding: 5px 15px;
+    font-weight: bold;
+    
+}
+.icon ul li a:hover{
+    background-color: #e5e7eb; /* Darker background on hover */
+    border-radius: 50%;
+    
+}
+i{
+    color: rgba(2, 20, 49, 1);
+}
+.product{
+     display: flex;
+     justify-content: space-between;
+}
+.pro{
+    color: #394e6a;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1;
+    margin-left: 100px;
+}
+.icon1{
+    font-weight: bolder;
+    font-size: 25px;
+    gap: 20px;
+    color: #394e6a;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+.styled-hr { 
+    border: none; /* Remove default border */ 
+    height: 1px; /* Set height */ 
+    background-color: #e2e8f4; /* Light gray color */ 
+    width: 90%; /* Set width to 80% of container */ 
+    margin: 10px 45px; /* Spacing above and below the line */ 
+}
+.container1{
+    color: #394e6a;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px;
+    margin-left: 70px;
+    letter-spacing: 0.9;
+    line-height: 1;
+}
+
+/* Styling for the product container */
+.product-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-around; /* Distribute space around the items */
+    flex-wrap: wrap; /* Wrap items if necessary */
+    margin: 0 auto; /* Center the container */
+    max-width: 1200px; /* Optional: Set a max width */
+}
+
+/* Styling for the product box */
+.product-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    width: 30%; /* Adjust width to fit within the container */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    text-align: center;
+    margin: 10px 0; /* Margin for spacing between boxes */
+}
+
+
+/* Styling for the product image */
+.product-image {
+    width: 85%;
+    height: 190px;
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+/* Styling for the product title */
+.product-title {
+    font-size: 18px;
+    margin: 15px 0 10px 0; /* Space around the title */
+    color: #394e6a;
+}
+
+/* Styling for the product price */
+.product-price {
+    font-size: 16px;
+    color: #463aa1; /* A nice orange color */
+}
+
+/* Styling for the pagination container */ 
+.pagination { 
+    display: flex; /* Use flexbox to align items horizontally */ 
+    justify-content: flex-end; /* Center the pagination controls */ 
+    margin-right: 80px;
+    margin-top: 20px; /* Add some space above the pagination */ 
+} 
+/* Styling for pagination links */ 
+.pagination a { 
+    display: inline-block; 
+    padding: 20px 10px; /* Add padding to make them look like buttons */ 
+    margin: 0; /* Space between pagination links */ 
+    background-color: #f0f6ff; /* Button background color */ 
+    color: #394e6a; /* Button text color */ 
+    border-radius: 5px; /* Rounded corners */ 
+    text-decoration: none; /* Remove underline */ 
+    transition: background-color 0.3s; /* Smooth transition on hover */
+ } 
+ /* Hover effect for pagination links */ 
+ .pagination a:hover { 
+    background-color:#e5e7eb ; /* Darker background on hover */ 
+    
+} 
+/* Active page number styling */ 
+.pagination .active { 
+    background-color: #e5e7eb; /* Different background for the active page */ 
+}
+
+/* Form */
+form {
+    display: block;
+}
+
+
+.form-container{
+    background-color: #eef6ff;
+    margin: 40px 100px;
+    border-radius: 15px;
+    width: 85%;
+    height:40%;
+}
+
+/* First row */
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.search{
+    margin: 30px;
+}
+.search label{
+    line-height:30px;
+}
+label{
+    cursor: default;
+    color: #394e6a;
+}
+.search > input {
+    width: 220px;
+    height: 18px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.search > select {
+    width: 220px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-left: -30px;
+    color: #394e6a;
+}
+
+/* Second row */
+
+.second-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 90px;
+    /* margin-left: -20px; */
+}
+.price{
+    margin-left: 0;
+}
+.price > span{
+    padding-left: 70px;
+    color: #394e6a;
+}
+.price > input{
+    width: 230px;
+    height: 20px;
+}
+.price > .span-2 {
+    padding-left: 130px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #394e6a;
+}
+.free-shipping{
+    text-align: center;
+}
+.button-1 >button {
+    padding: 8px 70px;
+    background-color: #007bff;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+.button-2 >button {
+    padding: 8px 70px;
+    background-color: #c149ad;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+}
+.button-1 button a{
+    text-decoration: none;
+    color: #fff;
+}
+.button-2 button a{
+    text-decoration: none;
+    color: #fff;
+}

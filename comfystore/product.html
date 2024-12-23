@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Comfy Store</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar nav-first">
+        <ul>
+            <li><a href="login.html">Sign in/Guest</a></li>
+            <li><a href="register.html" style="padding-right: 80px;">Create Account</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar nav-second">
+        <div class="logo"><p>C</p></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html"style="background-color: rgba(2, 20, 49, 1); color:#f0f6ff;padding: 8px 15px; border-radius: 8px; display: block; text-decoration: none;">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <ul>
+            <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </nav><br><br><br>
+
+    <!-- Product Details -->
+
+    
+    <div class="breadcrumb">
+        <a href="index.html">Home</a> > <a href="products.html">Products</a>
+    </div>
+    <div class="product-details-container">
+        <div class="product-image">
+            <img src="https://images.pexels.com/photos/943150/pexels-photo-943150.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1 class="product-name">Avant-Garde Lamp</h1>
+            <h3 class="product-sub">Modenza</h3>
+            <p class="product-price">$179.99</p>
+            <p class="product-description">Cloud bread VHS hell of banjo bicycle rights jianbing umami 
+mumblecore etsy 8-bit pok pok +1 wolf. Vexillologist yr dreamcatcher 
+waistcoat, authentic chillwave trust fund. Viral typewriter fingerstache 
+pinterest pork belly narwhal. Schlitz venmo everyday carry kitsch 
+pitchfork chillwave iPhone taiyaki trust fund hashtag kinfolk microdosing 
+gochujang live-edge</p>
+            <div class="product-colors">
+                <label for="color-select">Colors</label><br><br>
+                <div class="color-options"> 
+                    <label> 
+                        <input type="radio" name="color" value="light-green" class="color-radio"> 
+                        <span class="color-circle light-green"></span> 
+                    </label> 
+                    <label> 
+                        <input type="radio" name="color" value="blue" class="color-radio"> 
+                        <span class="color-circle blue"></span> 
+                    </label> 
+                </div> 
+            </div>
+            
+            <div class="product-amount">
+                <label for="amount-select">Amount</label>
+            </div>  
+                <select id="amount-select" class="color-select">
+                    <option value="1">1        </option>
+                    <option value="2">2        </option>
+                    <option value="3">3        </option>
+                </select>
+                 
+                    <button type="submit" class="add-to-bag-button">Add to Bag</button> 
+                     
+              
+        </div>
+    </div>
+
+
+
+    </body>
+    </html>
